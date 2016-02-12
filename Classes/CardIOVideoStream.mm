@@ -73,7 +73,7 @@
       image = [UIImage imageNamed:[NSString stringWithFormat:@"simulated_camera_%ld.png", (long)_imageIndex]];
     }
     if (image == nil) {
-      image = [[CardIOBundle sharedInstance] imageNamed:@"paypal_logo.png"];
+      image = [[CardIOBundle sharedInstance] imageNamed:@"stone_logo.png"];
     }
   }
   
